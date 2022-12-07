@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: #000;
+  color: #fff;
+  height: 90%;
+  width: 350px;
+  border-radius: 30px;
+}
+.result {
+  height: 35%;
+  font-size: 30px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.horizontal-options {
+  grid-column: span 3;
+  grid-row: span 1;
+}
+.vertical-options {
+  grid-row: span 1;
+}
+.numbers {
+  grid-column: span 3;
+}
