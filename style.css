@@ -16,12 +16,25 @@
   height: 90%;
   width: 350px;
   border-radius: 30px;
+  border: 2px solid #b3b3b3;
 }
 .result {
   height: 35%;
   font-size: 30px;
 }
-.buttons {
+a:link {
+  color: red;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: black;
+}
+/* .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -35,4 +48,4 @@
 }
 .numbers {
   grid-column: span 3;
-}
+} */
