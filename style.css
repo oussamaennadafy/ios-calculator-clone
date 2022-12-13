@@ -38,10 +38,22 @@ body {
   border: none;
   font-weight: 500;
   font-size: 20px;
-  text-align: center;
+  /* text-align: center; */
   cursor: pointer;
 }
 .buttons .btn-0 {
   grid-column: span 2;
   border-radius: 25px;
+}
+.vertical-operator {
+  background-color: rgb(194, 194, 194);
+}
+.buttons .horizontal-operator {
+  background-color: orange;
+  font-size: 26px;
+  color: #fff;
+}
+.number {
+  background-color: rgb(75, 75, 75);
+  color: #fff;
 }
