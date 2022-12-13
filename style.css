@@ -3,49 +3,45 @@
   margin: 0;
   box-sizing: border-box;
 }
-.main {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+body {
+  font-family: sans-serif;
 }
 .container {
-  background-color: #000;
-  color: #fff;
-  height: 90%;
-  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 530px;
+  background-color: black;
   border-radius: 30px;
-  border: 2px solid #b3b3b3;
 }
 .result {
-  height: 35%;
-  font-size: 30px;
+  height: 40%;
+  padding: 20px;
+  font-size: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: #fff;
 }
-a:link {
-  color: red;
-}
-a:visited {
-  color: blue;
-}
-a:hover {
-  color: green;
-}
-a:active {
-  color: black;
-}
-/* .buttons {
+.buttons {
+  height: 60%;
+  padding: 0 20px 30px 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 6px;
 }
-.horizontal-options {
-  grid-column: span 3;
-  grid-row: span 1;
+.buttons button {
+  border-radius: 50%;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
 }
-.vertical-options {
-  grid-row: span 1;
+.buttons .btn-0 {
+  grid-column: span 2;
+  border-radius: 25px;
 }
-.numbers {
-  grid-column: span 3;
-} */
